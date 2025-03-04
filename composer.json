@@ -3,7 +3,8 @@
   "description": "Sistema de redirecionamento inteligente",
   "type": "project",
   "require": {
-    "php": "^8.0"
+    "php": "^8.1",
+    "ext-json": "*"
   },
   "scripts": {
     "start": "php -S 0.0.0.0:$PORT index.php"

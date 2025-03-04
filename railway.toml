@@ -1,5 +1,6 @@
 [build]
-builder = "NIXPACKS"
+builder = "BUILDPACK"
+buildpack = "https://github.com/heroku/heroku-buildpack-php.git"
 
 [deploy]
 startCommand = "composer start"
