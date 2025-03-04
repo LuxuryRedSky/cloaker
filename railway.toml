@@ -1,0 +1,10 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "composer start"
+healthcheckPath = "/"
+restartPolicyType = "ON_FAILURE"
+
+[phases.setup]
+nixPkgs = ["php81"] 
