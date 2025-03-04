@@ -1,10 +1,8 @@
 [build]
-builder = "BUILDPACK"
-buildpack = "https://github.com/heroku/heroku-buildpack-php.git"
+builder = "nixpacks"
 
 [deploy]
-startCommand = "composer start"
-healthcheckPath = "/"
+startCommand = "npm start"
 restartPolicyType = "ON_FAILURE"
 
 [phases.setup]
