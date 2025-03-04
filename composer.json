@@ -1,0 +1,11 @@
+{
+  "name": "verificar/redirecionador",
+  "description": "Sistema de redirecionamento inteligente",
+  "type": "project",
+  "require": {
+    "php": "^8.0"
+  },
+  "scripts": {
+    "start": "php -S 0.0.0.0:$PORT index.php"
+  }
+}
