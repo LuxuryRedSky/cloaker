@@ -6,7 +6,7 @@ const port = process.env.PORT || 3000;
 // Configurações das páginas
 const whitePage =
   process.env.WHITE_PAGE ||
-  "https://www.gazetadopovo.com.br/economia/consignado-clt-governo-assina-mp-como-vai-funcionar/";
+  "https://www.gov.br/pt-br";
 const blackPage =
   process.env.BLACK_PAGE || "https://www.carteiradigitaldetrabalho.com/noticia/";
 
